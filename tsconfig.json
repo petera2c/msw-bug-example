@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "jest.polyfills.ts", "./jest.config.ts"]
+  "include": ["src", "jest.polyfills.js", "jest.config.js"]
 }
