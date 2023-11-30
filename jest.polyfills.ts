@@ -10,7 +10,7 @@
  */
 
 // @ts-ignore
-import { TextDecoder, TextEncoder } from "node:util";
+const { TextDecoder, TextEncoder } = require("node:util");
 
 Object.defineProperties(globalThis, {
   TextDecoder: { value: TextDecoder },
